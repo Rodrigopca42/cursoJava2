@@ -4,10 +4,8 @@ public class Comida {
 
     public static final double peso = 0;
 
-    public Comida(String string) {
+    public Comida(String comida, double peso) {
     }
 
-    public Comida(String string, double d) {
-    }
 
 }

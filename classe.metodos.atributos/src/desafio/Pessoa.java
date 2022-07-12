@@ -5,16 +5,14 @@ public class Pessoa {
 
     String nome;
     double peso;
+    
 
    Pessoa (String nome, double peso){
     this.nome = nome;
     this.peso = peso;
    }
 
-  /**
- * @param comida
- */
-void comer(Comida comida){
+ void comer(Comida comida){
     if(comida != null){
        this.peso += Comida.peso;
     }
