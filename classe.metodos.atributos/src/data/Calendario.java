@@ -6,18 +6,18 @@ package data;
     int dia;
     int mes;
     int ano;
-    public int Calendario;
+  //  public int Calendario;
 
      public Calendario(){
-        dia = 01;
-        mes = 01;
-        ano = 1970;
-    }
-
+        //dia = 01;
+        //mes = 01;
+        //ano = 1970;
+        this(1, 1, 1970);
+     }
      public Calendario(int diaInical, int mesInicial, int anoIncial){
-        dia = diaInical;
-        mes = mesInicial;
-        ano = anoIncial;
+        this.dia = diaInical;
+        this.mes = mesInicial;
+        this.ano = anoIncial;
     }
 
     public String obterDataFomatada(){
